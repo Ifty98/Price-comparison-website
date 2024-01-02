@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- hibernate.cfg.xml -->
+<hibernate-configuration>
+    <session-factory>
+        <!-- JDBC Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/web_scraper</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">Iftynumber2</property>
+        
+        <!-- Connection Pool Size -->
+        <property name="hibernate.connection.pool_size">6</property>
+    
+        <!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        
+        <!-- Specify dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        
+        <!-- Echo all executed SQL to stdout -->
+        <property name="hibernate.show_sql">true</property>
+        
+        <!-- Mapping with annotation - specify the annotated classes here -->
+        <mapping class="mdx.webdev.Watch"/>
+        <mapping class="mdx.webdev.Specifications"/>
+        <mapping class="mdx.webdev.Website"/>
+    </session-factory>
+</hibernate-configuration>
+

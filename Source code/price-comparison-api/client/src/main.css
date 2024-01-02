@@ -1,0 +1,96 @@
+body {
+    /* nbackground color for all the pages */    
+    background-color: rgb(23, 22, 22);
+}
+/* style for h1 text */
+h1 {
+    color: aliceblue;
+    font-size: 80px;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 5px 5px rgb(9, 72, 150);
+}
+/* style for h2, h3, h6 and any p tag text */
+h2, h3, h6, p {
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* style for the search box in the home and results page */
+.search-box {
+    background-image: url(./Images/back\ image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+/* style for search input box */
+.search-input {
+    border-radius: 20px;
+}
+
+.text1 {
+    text-align: center;
+}
+/* style for brand logos */
+.brand-image {
+    width: 210px;
+    height: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.image-con {
+    background-color: rgb(249, 244, 244);
+    border-radius: 20px;
+    box-shadow: 5px 5px #888888;
+}
+/* style for watch images */
+.watch-image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180%;
+    width: 500px;
+    height: 250px;
+}
+
+.watch-display {
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    height: 100%;
+}
+/* style for product information container */
+.product-info {
+    background-image: url(./Images/back\ image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.product-image {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.colour-button {
+    background-color: rgb(180, 14, 67);
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    color: aliceblue;
+}
+/* hover effect for color buttons */
+.colour-button:hover {
+    background-color: rgb(14, 23, 32);
+}
+/* styling for data names */
+.data-name {
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+}
+/* styling for web information container */
+.web-info {
+    background-color:rgb(56, 6, 27);
+    border-radius: 20px;
+}
